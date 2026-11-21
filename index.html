@@ -1,0 +1,266 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#080d0a">
+<meta name="description" content="Meet BM AI, your intelligent AI assistant developed by BM.DEVELOPERS.">
+<title>BM AI | Your Intelligent AI Assistant</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080d0a;
+    color: #f4f7f4;
+    line-height: 1.6;
+}
+
+header {
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #203b2b;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: #7bea96;
+}
+
+nav a {
+    color: #d5e3d8;
+    text-decoration: none;
+    margin-left: 22px;
+    font-size: 14px;
+}
+
+.hero {
+    min-height: 570px;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: radial-gradient(
+        circle at center,
+        #183c28 0%,
+        #080d0a 65%
+    );
+}
+
+.tag {
+    color: #7bea96;
+    border: 1px solid #376c47;
+    padding: 7px 16px;
+    border-radius: 30px;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(45px, 8vw, 75px);
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.green {
+    color: #7bea96;
+}
+
+.hero p {
+    max-width: 550px;
+    color: #bdcbbf;
+    margin-bottom: 30px;
+}
+
+.button {
+    display: inline-block;
+    background: #7bea96;
+    color: #07140b;
+    padding: 15px 27px;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #a2f4b3;
+}
+
+section {
+    padding: 75px 8%;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.subtitle {
+    color: #aab9ad;
+    margin-bottom: 35px;
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+    gap: 18px;
+    margin-top: 35px;
+}
+
+.feature {
+    background: #14251b;
+    border: 1px solid #294a34;
+    border-radius: 14px;
+    padding: 28px 20px;
+    text-align: left;
+}
+
+.feature h3 {
+    color: #7bea96;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #bdcbbf;
+    font-size: 14px;
+}
+
+.download {
+    background: #102318;
+    border-top: 1px solid #294a34;
+    border-bottom: 1px solid #294a34;
+}
+
+.download p {
+    color: #bdcbbf;
+    margin: 15px auto 25px;
+    max-width: 500px;
+}
+
+.status {
+    color: #7bea96;
+    font-size: 13px;
+    margin-top: 18px;
+}
+
+footer {
+    padding: 35px 15px;
+    text-align: center;
+    color: #aab9ad;
+    font-size: 13px;
+}
+
+footer strong {
+    color: #7bea96;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">BM AI</div>
+    <nav>
+        <a href="#features">Features</a>
+        <a href="#download">Download</a>
+        <a href="#about">About</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <div class="tag">POWERED BY ARTIFICIAL INTELLIGENCE</div>
+
+    <h1>
+        Meet <span class="green">BM AI.</span>
+    </h1>
+
+    <p>
+        Your intelligent AI assistant.
+        Explore ideas, ask questions, understand images
+        and get help with coding.
+    </p>
+
+    <a class="button" href="#download">
+        GET BM AI
+    </a>
+</div>
+
+<section id="features">
+    <h2>What can BM AI do?</h2>
+    <p class="subtitle">
+        Intelligent tools to help you explore and create.
+    </p>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>AI Conversations</h3>
+            <p>Ask questions, explore topics and get helpful answers.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Image Understanding</h3>
+            <p>Upload images and ask BM AI questions about them.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Coding Assistance</h3>
+            <p>Explore programming concepts and get coding guidance.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Creative Ideas</h3>
+            <p>Explore ideas and get help with creative projects.</p>
+        </div>
+
+    </div>
+</section>
+
+<section class="download" id="download">
+    <h2>Get <span class="green">BM AI</span></h2>
+
+    <p>
+        Bring your AI assistant to your Android device.
+        The public download will be available soon.
+    </p>
+
+    <span class="button">COMING SOON</span>
+
+    <div class="status">
+        Android release in preparation
+    </div>
+</section>
+
+<section id="about">
+    <h2>Built by <span class="green">BM.DEVELOPERS</span></h2>
+
+    <p class="subtitle">
+        An emerging technology and software development company
+        building intelligent digital solutions.
+    </p>
+</section>
+
+<footer>
+    <p><strong>BM AI</strong> by BM.DEVELOPERS</p>
+    <p>BUILDING THE TECHNOLOGY OF TOMORROW.</p>
+    <p>© 2026 BM.DEVELOPERS. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
