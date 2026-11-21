@@ -5,8 +5,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#080d0a">
-<meta name="description" content="Meet BM AI, your intelligent AI assistant developed by BM.DEVELOPERS.">
-<title>BM AI | Your Intelligent AI Assistant</title>
+
+<meta name="description" content="Download BM AI, your intelligent AI assistant developed by BM.DEVELOPERS.">
+
+<title>BM AI | Official Website</title>
 
 <style>
 * {
@@ -38,17 +40,22 @@ header {
     font-size: 25px;
     font-weight: bold;
     color: #7bea96;
+    letter-spacing: 1px;
 }
 
 nav a {
     color: #d5e3d8;
     text-decoration: none;
-    margin-left: 22px;
+    margin-left: 20px;
     font-size: 14px;
 }
 
+nav a:hover {
+    color: #7bea96;
+}
+
 .hero {
-    min-height: 570px;
+    min-height: 580px;
     padding: 100px 20px;
     display: flex;
     flex-direction: column;
@@ -58,7 +65,7 @@ nav a {
     background: radial-gradient(
         circle at center,
         #183c28 0%,
-        #080d0a 65%
+        #080d0a 70%
     );
 }
 
@@ -91,14 +98,16 @@ nav a {
     display: inline-block;
     background: #7bea96;
     color: #07140b;
-    padding: 15px 27px;
+    padding: 15px 28px;
     border-radius: 9px;
     text-decoration: none;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 .button:hover {
     background: #a2f4b3;
+    transform: translateY(-2px);
 }
 
 section {
@@ -159,6 +168,18 @@ section h2 {
     margin-top: 18px;
 }
 
+.version {
+    color: #aab9ad;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.about-text {
+    max-width: 650px;
+    margin: auto;
+    color: #bdcbbf;
+}
+
 footer {
     padding: 35px 15px;
     text-align: center;
@@ -169,6 +190,26 @@ footer {
 footer strong {
     color: #7bea96;
 }
+
+@media(max-width:600px) {
+    header {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0 8px;
+        font-size: 13px;
+    }
+
+    .hero {
+        min-height: 500px;
+    }
+
+    section {
+        padding: 60px 6%;
+    }
+}
 </style>
 </head>
 
@@ -176,6 +217,7 @@ footer strong {
 
 <header>
     <div class="logo">BM AI</div>
+
     <nav>
         <a href="#features">Features</a>
         <a href="#download">Download</a>
@@ -183,8 +225,13 @@ footer strong {
     </nav>
 </header>
 
+<!-- HERO SECTION -->
+
 <div class="hero">
-    <div class="tag">POWERED BY ARTIFICIAL INTELLIGENCE</div>
+
+    <div class="tag">
+        POWERED BY ARTIFICIAL INTELLIGENCE
+    </div>
 
     <h1>
         Meet <span class="green">BM AI.</span>
@@ -199,10 +246,15 @@ footer strong {
     <a class="button" href="#download">
         GET BM AI
     </a>
+
 </div>
 
+<!-- FEATURES SECTION -->
+
 <section id="features">
-    <h2>What can BM AI do?</h2>
+
+    <h2>What can <span class="green">BM AI</span> do?</h2>
+
     <p class="subtitle">
         Intelligent tools to help you explore and create.
     </p>
@@ -211,56 +263,105 @@ footer strong {
 
         <div class="feature">
             <h3>AI Conversations</h3>
-            <p>Ask questions, explore topics and get helpful answers.</p>
+            <p>
+                Ask questions, explore topics
+                and get helpful answers.
+            </p>
         </div>
 
         <div class="feature">
             <h3>Image Understanding</h3>
-            <p>Upload images and ask BM AI questions about them.</p>
+            <p>
+                Upload images and ask BM AI
+                questions about them.
+            </p>
         </div>
 
         <div class="feature">
             <h3>Coding Assistance</h3>
-            <p>Explore programming concepts and get coding guidance.</p>
+            <p>
+                Explore programming concepts
+                and get coding guidance.
+            </p>
         </div>
 
         <div class="feature">
             <h3>Creative Ideas</h3>
-            <p>Explore ideas and get help with creative projects.</p>
+            <p>
+                Explore ideas and get help
+                with creative projects.
+            </p>
         </div>
 
     </div>
+
 </section>
 
+<!-- DOWNLOAD SECTION -->
+
 <section class="download" id="download">
-    <h2>Get <span class="green">BM AI</span></h2>
+
+    <h2>
+        Get <span class="green">BM AI</span>
+    </h2>
 
     <p>
         Bring your AI assistant to your Android device.
-        The public download will be available soon.
+        Download the official BM AI Android application.
     </p>
 
-    <span class="button">COMING SOON</span>
+    <a
+        class="button"
+        href="./BM_AI_com.bmdevelopers.bmai_v1.0.apk"
+        download="BM-AI.apk">
+
+        DOWNLOAD BM AI
+
+    </a>
 
     <div class="status">
-        Android release in preparation
+        ✓ Available for Android
     </div>
+
+    <div class="version">
+        Version 1.0 | Android APK
+    </div>
+
 </section>
+
+<!-- ABOUT SECTION -->
 
 <section id="about">
-    <h2>Built by <span class="green">BM.DEVELOPERS</span></h2>
 
-    <p class="subtitle">
-        An emerging technology and software development company
-        building intelligent digital solutions.
+    <h2>
+        Built by <span class="green">BM.DEVELOPERS</span>
+    </h2>
+
+    <p class="about-text">
+        BM.DEVELOPERS is an emerging technology
+        and software development company focused
+        on artificial intelligence, mobile applications,
+        digital platforms and modern technology solutions.
     </p>
+
 </section>
 
+<!-- FOOTER -->
+
 <footer>
+
     <p><strong>BM AI</strong> by BM.DEVELOPERS</p>
-    <p>BUILDING THE TECHNOLOGY OF TOMORROW.</p>
-    <p>© 2026 BM.DEVELOPERS. All rights reserved.</p>
+
+    <p>
+        BUILDING THE TECHNOLOGY OF TOMORROW.
+    </p>
+
+    <p>
+        © 2026 BM.DEVELOPERS. All rights reserved.
+    </p>
+
 </footer>
 
 </body>
-</html>
+    </html>
+    
